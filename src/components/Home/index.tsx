@@ -11,7 +11,6 @@ const HomePage = () => {
         <Profile/>
         <div className=" hover:opacity-70 border-x-2 border-y-4 border-transparent hover:cursor-pointer hover:border-red-500 transition-all duration-300  md:scale-75 lg:scale-50 bg-white h-[800px] w-96 rounded-[40px] overflow-hidden"/>
         <div className=" hover:opacity-70 border-x-2 border-y-4 border-transparent hover:cursor-pointer hover:border-red-500 transition-all duration-300 md:scale-75 lg:scale-50 bg-white h-[800px] w-96 rounded-[40px] overflow-hidden"/>
-        <div className=" hover:opacity-70 border-x-2 border-y-4 border-transparent hover:cursor-pointer hover:border-red-500 transition-all duration-300 md:scale-75 lg:scale-50 bg-white h-[800px] w-96 rounded-[40px] overflow-hidden"/>
     </div>
   )
 }
