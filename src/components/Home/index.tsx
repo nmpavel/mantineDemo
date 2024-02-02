@@ -5,7 +5,7 @@ import Profile from '../Profile'
 
 const HomePage = () => {
   return (
-    <div className='flex flex-row justify-center items-center bg-gray-200'>
+    <div className='flex flex-col pt-6 lg:pt-0 gap-12 lg:gap-0 lg:flex-row justify-center items-center bg-gray-200'>
         <CartComponent/>
         <AddToCart/>
         <Profile/>

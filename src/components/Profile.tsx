@@ -11,7 +11,7 @@ import { CgProfile } from "react-icons/cg";
 
 const Profile = () => {
   return (
-    <div className=" scale-50  relative bg-white h-[800px] w-96 rounded-[40px] overflow-hidden pt-16">
+    <div className=" md:scale-75 lg:scale-50 relative bg-white h-[800px] w-96 rounded-[40px] overflow-hidden pt-16">
       <div className="flex flex-row  justify-between items-center px-8  font-bold text-lg">
         <IoMdMenu />
         <p className=" ">Profile</p>
