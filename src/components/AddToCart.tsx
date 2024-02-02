@@ -7,12 +7,11 @@ import { CgProfile } from "react-icons/cg";
 
 const AddToCart = () => {
   return (
-    <div className=" md:scale-75 lg:scale-50 relative bg-gray-100 h-[800px] w-96 rounded-[40px] overflow-hidden">
+    <div className=" md:scale-75 lg:scale-50 relative bg-gray-100 h-[800px] w-96 rounded-[40px] overflow-hidden hover:bg-black hover:opacity-70 border-x-2 border-y-4 border-transparent hover:cursor-pointer hover:border-red-500 transition-all duration-300">
       <div className="relative rounded-lg w-full h-1/2">
-  <img src={"/images/tshirt.jpg"} className="w-full h-full rounded-lg" />
-  <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
-</div>
-
+        <img src={"/images/tshirt.jpg"} className="w-full h-full rounded-lg" />
+        <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+      </div>
 
       <div className=" absolute bottom-0 w-full rounded-t-[40px] overflow-hidden bg-white ">
         <div className=" space-y-6 bg-white  w-full shadow-lg p-8">
@@ -43,7 +42,7 @@ const AddToCart = () => {
               <div className=" text-white opacity-65 bg-red-500 w-10 h-10  flex justify-center items-center rounded-lg">
                 <TiTick />
               </div>
-              <div className=" bg-green-600 w-10 h-10  flex justify-center items-center   rounded-lg" />
+              <div className=" bg-green-600 w-10 h-10  flex justify-center items-center rounded-lg" />
               <div className=" bg-blue-400 w-10 h-10  flex justify-center items-center rounded-lg" />
               <div className=" bg-blue-800 w-10 h-10  flex justify-center items-center rounded-lg" />
             </div>
