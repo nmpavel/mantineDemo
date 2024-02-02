@@ -5,7 +5,7 @@ import Profile from '../Profile'
 
 const HomePage = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-6 p-4 gap-4 bg-gray-200 md:-mt-24 lg:-mt-48 md:-ml-4 lg:-ml-12 xl:-ml-[110px] xl:h-[150vh]'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-6 p-4 gap-4 bg-gray-200 md:-mt-24 lg:-mt-48 md:-ml-4 lg:-ml-12 xl:-ml-[100px] xl:h-[150vh]'>
         <AddToCart/>
         <CartComponent/>
         <Profile/>
