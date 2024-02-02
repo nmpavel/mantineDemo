@@ -6,7 +6,7 @@ import { MdOutlineDelete } from "react-icons/md";
 
 const CartComponent = () => {
   return (
-    <div className=" scale-50 relative bg-gray-100 h-[800px] w-96 rounded-[40px] overflow-hidden">
+    <div className=" md:scale-75 lg:scale-50 relative bg-gray-100 h-[800px] w-96 rounded-[40px] overflow-hidden">
       <div className="flex flex-col  items-center">
         <h1 className=" text-lg font-bold my-6">Cart</h1>
         <div className=" flex flex-col gap-6 bg-white m-4 p-4 rounded-lg shadow-lg">
