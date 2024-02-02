@@ -7,7 +7,7 @@ import { CgProfile } from "react-icons/cg";
 
 const AddToCart = () => {
   return (
-    <div className=" scale-50 relative bg-gray-100 h-[800px] w-96 rounded-[40px] overflow-hidden">
+    <div className=" md:scale-75 lg:scale-50 relative bg-gray-100 h-[800px] w-96 rounded-[40px] overflow-hidden">
       <div className="relative rounded-lg w-full h-1/2">
   <img src={"/images/tshirt.jpg"} className="w-full h-full rounded-lg" />
   <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
